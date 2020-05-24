@@ -1515,8 +1515,8 @@ async function run() {
             const page = await getChrome('')
             await page.goto('https://www.instagram.com/')
             await page.waitFor('input[name=username]')
-            await page.type("label input[name=username]", 'charanbir1990@yahoo.com')
-            await page.type("input[name=password]", 'manisha@123')
+            await page.type("label input[name=username]", '')
+            await page.type("input[name=password]", '')
             await page.click('button[type=submit]')
             await click(page, "//button[text()='Not Now']")
             for (i = 0; i<arrUsers.length; i++) {
