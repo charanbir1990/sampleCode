@@ -1,0 +1,26 @@
+{
+  "name": "pupiter",
+  "version": "1.0.0",
+  "description": "Automated software testing with pupiter",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --timeout=30000 ./tests/test.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "Mocha",
+    "Chai",
+    "Automation"
+  ],
+  "author": "KO",
+  "license": "ISC",
+  "dependencies": {
+    "@percy/puppeteer": "^1.1.0",
+    "chai": "^4.2.0",
+    "jest": "^26.0.1",
+    "jest-image-snapshot": "^4.0.0",
+    "mocha": "^7.1.2",
+    "prettier": "^2.0.5",
+    "puppeteer": "^3.1.0"
+  }
+}
