@@ -68,3 +68,11 @@ run()
 //}''')
 
 
+//var linkTexts = await page.$$eval(".plan-features a", elements=> elements.map(item=>item.textContent))
+//            await page.$eval('input[name=username]', el => el.value = 'charanbir1990@yahoo.com')
+//            await page.$eval('input[name=password]', el => el.value = 'manisha@123')
+//instaXpath = "//a[text()='Forgot password?']"
+//const linkHandlers = await page.$x(instaXpath)
+//if (linkHandlers.length > 0) {
+//  await linkHandlers[0].click();
+//}
