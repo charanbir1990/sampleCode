@@ -89,3 +89,34 @@ describe('My First Puppeteer Test', () => {
 //text = await page.evaluate(element => element.textContent, element)
 //var xpathTextContent = await element.getProperty('textContent'), text = await xpathTextContent.jsonValue();
 //let text = await element.getProperty('textContent')
+
+//with browserless
+browser = await puppeteer.connect({
+  browserWSEndpoint:
+  'ws://' +
+  browserless.ip +
+  ':' +
+  browserless.port +
+  '?TOKEN=' +
+  browserless.token +
+  '&--proxy-server=' + proxy +
+  '&--window-size=1920x1080' +
+  '&--no-sandbox=true' +
+  '&--disable-setuid-sandbox=true' +
+  '&--disable-dev-shm-usage=true' +
+  '&--disable-accelerated-2d-canvas=true' +
+  '&--disable-gpu=true'
+});
+
+// without browserless
+browser = await puppeteer.launch({
+  args: [
+  '--proxy-server=' + proxy,
+  '--no-sandbox',
+  '--disable-setuid-sandbox',
+  '--disable-dev-shm-usage',
+  '--disable-accelerated-2d-canvas',
+  '--disable-gpu',
+  '--window-size=1920x1080',
+  ],
+});

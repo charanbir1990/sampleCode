@@ -1,0 +1,75 @@
+Identifires for Tr1pp Automation testing screen wise
+
+Enter Mobile No
+Welcome page(Enter your mobile number):
+‘open login’ to enlarge screen
+- ‘flag icon’
+"cross flag"
+"flag list"
+“US”, “IN”, … in capitals
+- 'Enter mobile number' text field
+- 'Next' button when grey
+- 'Next' button when blue
+‘Error lbl’
+    
+
+Enter password
+‘cross btn’
+’txt_password_login’
+’show_passworfd’
+‘forgotmyPassword’
+‘nextLogin’
+
+Create your account
+‘cross btn’
+‘enter first name’
+‘enter last name’
+‘enter email’
+'enter password’
+‘show password’
+‘confirm btn’
+
+
+OTP Screen
+‘cross btn’
+‘mobileOrEmail’
+‘tf1’
+‘tf2’
+‘tf3’
+‘tf4’
+‘resend btn’
+’11’
+’22’
+’33’
+’44’
+’55’
+’66’
+’77’
+’88’
+’99’
+’00’
+‘cut otp btn’
+
+Enter Birthday and Gender
+‘txt birthday’
+‘txt gender’
+‘btn finish’
+
+Add Payment method after login
+‘Btn skip’
+‘Btn add payment method’
+
+
+
+Forgot password screen
+‘btn cross’
+‘txtEmail’
+‘lbl error’
+‘forgetPasswordSubmitBtn’
+
+Email sent for forgot password
+‘btn cross’
+‘sendAgainBtn’
+
+
+
