@@ -20,3 +20,6 @@ for word in arratContextOfWords:
     searchBar = driver.find_element_by_xpath('//div[@data-tab="1"]')
     searchBar.send_keys(word)
     driver.find_element_by_xpath('//span[@data-icon="send"]').find_element_by_xpath('..').click()
+
+
+#a = driver.execute_script("return goPrivateArea();")
